@@ -1,0 +1,112 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - request > extend:
+        patched: '2019-07-12T00:40:24.018Z'
+    - node-sass > request > extend:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > webdriverio > request > extend:
+        patched: '2019-07-12T00:40:24.018Z'
+    - node-sass > node-gyp > request > extend:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > extend:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > request > extend:
+        patched: '2019-07-12T00:40:24.018Z'
+  'npm:hoek:20180212':
+    - spectron > webdriverio > request > hawk > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > webdriverio > request > hawk > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > webdriverio > request > hawk > sntp > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > webdriverio > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - request > hawk > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - request > hawk > sntp > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - request > hawk > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > request > hawk > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > request > hawk > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - node-sass > node-gyp > request > hawk > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > request > hawk > sntp > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > sntp > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-07-12T00:40:24.018Z'
+  'npm:stringstream:20180511':
+    - request > stringstream:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > request > stringstream:
+        patched: '2019-07-12T00:40:24.018Z'
+    - node-sass > request > stringstream:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > webdriverio > request > stringstream:
+        patched: '2019-07-12T00:40:24.018Z'
+    - node-sass > node-gyp > request > stringstream:
+        patched: '2019-07-12T00:40:24.018Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > stringstream:
+        patched: '2019-07-12T00:40:24.018Z'
+    - webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-07-12T00:40:24.018Z'
+    - babel-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-07-12T00:40:24.018Z'

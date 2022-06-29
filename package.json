@@ -83,7 +83,7 @@
     "octicons": "^7.0.1",
     "parallel-webpack": "^2.1.0",
     "prettier": "1.11.0",
-    "request": "^2.72.0",
+    "request": "^2.87.0",
     "rimraf": "^2.5.2",
     "sass-loader": "^6.0.6",
     "semver": "^5.5.0",
